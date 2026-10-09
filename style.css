@@ -1,0 +1,16 @@
+.cabecalho {
+    background: #BBBBBB;                /* Define o fundo do cabecalho com um tom de cinza medio */
+    padding: 20px 0;                    /* Adiciona 20px de espacamento interno acima e abaixo do cabecalho */
+}
+
+.caixa {
+    position: relative;                 /* Define este elemento como a referência de posicionamento para seus filhos */
+    width: 940px;                       /* Define uma largura fixa maxima de 940 pixels para o conteúdo */
+    margin: 0 auto;                     /* Centraliza este bloco horizontalmente na tela */
+}
+
+.imagem-sobre {
+    width: 200px;                       /* Define uma largura ideal para a imagem */
+    float: left;                        /* Faz o elemento flutuar a esquerda, permitindo que textos contornem ele */
+    margin: 0 20px 20px 0;              /* Adiciona espacamento externo na direita e abaixo do elemento */
+}
