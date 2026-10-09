@@ -4,14 +4,10 @@
 }
 
 .caixa {
+    text-align: center;
+    font-size: 2em;
     position: relative;                 /* Define este elemento como a referência de posicionamento para seus filhos */
     width: 940px;                       /* Define uma largura fixa maxima de 940 pixels para o conteúdo */
     margin: 0 auto;                     /* Centraliza este bloco horizontalmente na tela */
 }
 
-.apresentacao {
-    text-align: center;                 /* Centraliza o texto do titulo */
-    font-size: 2em;                     /* Define o tamanho da fonte como o dobro do tamanho padrao */
-    margin: 0 0 1em;                    /* Cria uma margem apenas na parte inferior do titulo */
-    clear: left;                        /* Impede que o titulo fique ao lado de elementos flutuados a esquerda */
-}
