@@ -132,6 +132,11 @@ BODY {
     color: #fcfafa
     margin-bottom: 12px;
     font-size: 22px;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #aaa;
+    line-height: 1.5;
+}
 }
 
 .sub-title {
