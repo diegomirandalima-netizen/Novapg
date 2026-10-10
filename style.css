@@ -1,70 +1,66 @@
-/* Configurações Globais */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-body {
-    background-color: #0b0b0b;
-    color: #ffffff;
-    overflow-x: hidden;
-}
-
-/* Cabeçalho */
+/* Estilo geral do cabeçalho */
 .header {
-    background: linear-gradient(135deg, #151515 0%, #050505 100%);
-    padding: 20px 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Deixa a logo na extrema esquerda e os botões na direita */
     align-items: center;
-    border-bottom: 4px solid #4115c4;
-    flex-wrap: wrap;
-    gap: 15px;
-}
-.logo {
-    padding: 15px 0;
-    padding: 15px 0;
-    overflow: hidden;
+    background-color: #141414; 
+    padding: 15px 40px;
     width: 100%;
-    white-space: nowrap;
-    position: relative;
+    box-sizing: border-box;
 }
 
+/* Container que segura a imagem e o texto juntos lado a lado */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espaço entre a logo pequena e o texto DHIGO MOVIES TV */
+}
+
+/* Tamanho pequeno e controlado para a imagem da logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 45px;   /* Diminui o tamanho da imagem (experimente 40px ou 50px) */
+    height: auto;  /* Mantém a proporção correta para não distorcer */
+    display: block;
+}
+
+/* Estilo do texto ao lado da imagem */
 .logo-text {
-    font-size: 28px;
-    font-weight: 900;
-    letter-spacing: 1px;
-    color: #fff;
+    font-size: 24px; /* Tamanho ideal para o nome */
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0;
+    white-space: nowrap; /* Impede que o texto quebre a linha */
 }
 
-.logo-text .highlight {
-    color: #f8f7f9;
+.highlight {
+    color: #0066ff; /* Cor de destaque */
 }
 
-/* Redes Sociais com Cursor de Mãozinha e Efeito de Cor */
+/* Navegação das redes sociais (Fica bem à direita com espaço livre) */
 .social-nav {
     display: flex;
-    gap: 20px;
+    gap: 25px; /* Espaço elegante entre os ícones das redes sociais */
 }
 
 .social-link {
-    cursor: pointer;
-    text-decoration: none;
     color: #ffffff;
-    font-weight: bold;
+    text-decoration: none;
     font-size: 16px;
-    transition: color 0.3s ease, transform 0.2s ease;
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
+    transition: color 0.3s ease;
 }
 
-.social-link.yt:hover { color: #09ff00; transform: scale(1.05); }
-.social-link.wa:hover { color: #10ed08; transform: scale(1.05); }
-.social-link.tk:hover { color: #10ed08; transform: scale(1.05); }
-.social-link.ig:hover { color: #10ed08; transform: scale(1.05); }
+.social-link:hover {
+    color: #0066ff; /* Efeito ao passar o mouse */
+}
+
 
 /* Carrossel Horizontal Infinito */
 .carousel-section {
