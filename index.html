@@ -1,68 +1,101 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHIGO MOVIES TV</title>
+    <!-- Importação do CSS Separado -->
     <link rel="stylesheet" href="style.css">
-    <title>Meu Projeto - DhigoMoviesTV</title>
+    <!-- FontAwesome para ícones das redes sociais -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-     <header>
-        <h1><strong>Dhigo Movies TV</strong></h1>                                
-        <div class="caixa">                 
-            <h1><img src="logo.png" alt="Logo DhigoMoviesTV"></h1> 
-            <nav>                           
-                <ul>                        
-                    <a href="https://www.youtube.com/@dhigomoviestv">youtube</a> 
-                    <a href="https://wa.me/5542988730505?text=Olá%2C%20gostaria%20de%20um%20teste%20grátis%20de%20iptv">WhatsApp</a> 
-                    <a href="https://tiktok.com">tiktok</a> 
-                    <a href="https://www.instagram.com/dhigo.movies.tv?stkn=NHpxaGdlenB3Y3Zy">instagram</a> 
-                </ul>                 >
-            </nav>                        
-        </div>                         
-    <header>
 
-    <section class="apresentacao">
-        <h2>Descrição</h2>
-        <p>
-            <strong>DHIGO MOVIES TV – O MELHOR DO CINEMA NA PALMA DA SUAS MÃOS!</strong>
-        </p>
-        <p>
-            Bem-vindo(a) ao DHIGO MOVIES TV, o canal #1 para quem busca listas IPTV atualizadas, sem travamento com suporte rápido sem ficar hrs sem sinal.<br>
-            Aqui, você encontra:
-        </p>
-        
-        <ul>
-            <li>✅ Listas IPTV premium (atualizadas diariamente)</li>
-            <li>✅ Tutoriais completos para configurar IPTV em Smart TVs, Android, Fire Stick e tv box.</li>
-            <li>✅ Dicas exclusivas para melhorar sua experiência de streaming</li>
-            <li>✅ Análises de aplicativos e dispositivos para IPTV</li>
-            <li>✅ Conteúdo 100% gratuito e de qualidade</li>
-        </ul>
+    <!-- CABEÇALHO -->
+    <header class="header">
+        <div class="logo-container">
+            <h1 class="logo-text">DHIGO <span class="highlight">MOVIES TV</span></h1>
+        </div>
+        <nav class="social-nav">
+            <a href="https://youtube.com" target="_blank" class="social-link yt">
+                <i class="fab fa-youtube"></i> YouTube
+            </a>
+            <a href="https://whatsapp.com" target="_blank" class="social-link wa">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+            <a href="https://tiktok.com" target="_blank" class="social-link tk">
+                <i class="fab fa-tiktok"></i> TikTok
+            </a>
+            <a href="https://instagram.com" target="_blank" class="social-link ig">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+        </nav>
+    </header>
 
-        <p>
-            🔔 <strong>ATIVE O SININHO</strong> para não perder nenhum vídeo novo!<br>
-            👍 <strong>CURTA, COMENTE e COMPARTILHE</strong> para ajudar o canal a crescer!
-        </p>
-
+    <!-- CARROSSEL HORIZONTAL INFINITO DE CAPAS DE FILMES -->
+    <section class="carousel-section">
+        <div class="carousel-track">
+            <!-- Grupo 1 de Capas -->
+            <div class="movie-card"><img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=300&auto=format&fit=crop&q=80" alt="Filme 1"></div>
+            <div class="movie-card"><img src="https://images.unsplash.com/photo-1594909122845-11baa439b7bf?w=300&auto=format&fit=crop&q=80" alt="Filme 2"></div>
+            <div class="movie-card"><img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=300&auto=format&fit=crop&q=80" alt="Filme 3"></div>
+            <div class="movie-card"><img src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=300&auto=format&fit=crop&q=80" alt="Filme 4"></div>
+            <div class="movie-card"><img src="https://images.unsplash.com/photo-1618336753974-aae8e04506aa?w=300&auto=format&fit=crop&q=80" alt="Filme 5"></div>
+            <div class="movie-card"><img src="https://images.unsplash.com/photo-1578632767115-351597cf2477?w=300&auto=format&fit=crop&q=80" alt="Filme 6"></div>
+            
+            <!-- Grupo 2 de Capas (Duplicado para o efeito infinito perfeito) -->
+            <div class="movie-card"><img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=300&auto=format&fit=crop&q=80" alt="Filme 1"></div>
+            <div class="movie-card"><img src="https://images.unsplash.com/photo-1594909122845-11baa439b7bf?w=300&auto=format&fit=crop&q=80" alt="Filme 2"></div>
+            <div class="movie-card"><img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=300&auto=format&fit=crop&q=80" alt="Filme 3"></div>
+            <div class="movie-card"><img src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=300&auto=format&fit=crop&q=80" alt="Filme 4"></div>
+            <div class="movie-card"><img src="https://images.unsplash.com/photo-1618336753974-aae8e04506aa?w=300&auto=format&fit=crop&q=80" alt="Filme 5"></div>
+            <div class="movie-card"><img src="https://images.unsplash.com/photo-1578632767115-351597cf2477?w=300&auto=format&fit=crop&q=80" alt="Filme 6"></div>
+        </div>
     </section>
 
-    <section class="fotosfilme">
-        <h2><strong>canais, filmes e séries</strong></h2>
-    <img src="ft1.jpg" alt="filme1">
-    <img src="ft2.jpg" alt="filme2">
-    <img src="ft3.jpg" alt="filme3">
-    <img src="ft4.jpg" alt="filme4">
-    <img src="ft5.jpg" alt="filme5">
-    <img src="ft6.jpg" alt="filme6">
-    <img src="ft7.jpg" alt="filme7">
-    <img src="ft8.jpg" alt="filme8">
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="main-content">
+        <section class="info-box">
+            <h2>O que é IPTV?</h2>
+            <p>IPTV é uma tecnologia que permite assistir a canais de TV, filmes e séries pela internet, sem depender exclusivamente da antena ou do cabo tradicional.</p>
+        </section>
 
-    </section>
+        <!-- DISPOSITIVOS COMPATÍVEIS -->
+        <section class="devices-section">
+            <h2>Compatível com:</h2>
+            <div class="devices-grid">
+                <div class="device-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Celular</h3>
+                    <button class="test-btn">Testar agora</button>
+                </div>
+                <div class="device-card">
+                    <i class="fas fa-tv"></i>
+                    <h3>Fire TV Stick</h3>
+                    <button class="test-btn">Testar agora</button>
+                </div>
+                <div class="device-card">
+                    <i class="fas fa-desktop"></i>
+                    <h3>Android TV</h3>
+                    <button class="test-btn">Testar agora</button>
+                </div>
+                <div class="device-card">
+                    <i class="fas fa-laptop"></i>
+                    <h3>Computador</h3>
+                    <button class="test-btn">Testar agora</button>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    <section class="pagina3">
-        <h2>Página 3</h2>
-        <p>Conteúdo da página 3</p>
-    </section>
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <p>Tudo isto por muito menos.</p>
+        <p>Entre em contato para mais informações e peça seu teste grátis.</p>
+        <p class="copyright">© Desde 2023 - DHIGO MOVIES TV</p>
+    </footer>
+
+    <!-- Importação do JavaScript Separado -->
+    <script src="script.js"></script>
 </body>
 </html>
