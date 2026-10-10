@@ -179,6 +179,7 @@ BODY {
     padding: 20px;
     border-radius: 8px;
     text-align: center;
+    text-decoration: rgb(246, 245, 245);
     border: 1px solid #fcfafa;
     transition: 0.3s;
 }
