@@ -23,6 +23,14 @@ body {
     flex-wrap: wrap;
     gap: 15px;
 }
+.logo {
+    padding: 15px 0;
+    padding: 15px 0;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    position: relative;
+}
 
 .logo-text {
     font-size: 28px;
