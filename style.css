@@ -179,7 +179,7 @@ BODY {
     padding: 20px;
     border-radius: 8px;
     text-align: center;
-    border: 1px solid #333;
+    border: 1px solid #fcfafa;
     transition: 0.3s;
 }
 
@@ -287,14 +287,7 @@ BODY {
 .promo-text {
     margin-top: 10px;
     color: #ddd;
-    font-size: 14px;
-}
-
-.bonus-text {
-    margin-top: 12px;
-    color: #ffcc00;
-    font-size: 13px;
-    font-style: italic;
+    font-size: 20px;
 }
 
 /* Rodapé */
