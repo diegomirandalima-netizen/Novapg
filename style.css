@@ -1,3 +1,6 @@
+BODY {
+    background: #58595a;
+}
 /* Estilo geral do cabeçalho */
 .header {
     display: flex;
