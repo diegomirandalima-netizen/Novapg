@@ -119,12 +119,10 @@ BODY {
 }
 
 .info-box, .warning-box {
-    background: #0b0b0b;
-    padding: 25px;
-    border-radius: 8px;
-    margin-bottom: 30px;
-    border-left: 5px solid #ff0055;
-    box-shadow: 0 4px 15px rgba(16, 15, 15, 0.912);
+    color: #ff0055;
+    color: #fcfafa
+    margin-bottom: 12px;
+    font-size: 22px;
 }
 
 .info-box h2, .warning-box h2 {
@@ -132,11 +130,6 @@ BODY {
     color: #fcfafa
     margin-bottom: 12px;
     font-size: 22px;
-    margin-top: 15px;
-    font-size: 14px;
-    color: #aaa;
-    line-height: 1.5;
-}
 }
 
 .sub-title {
