@@ -136,7 +136,7 @@ BODY {
 .sub-title {
     margin-top: 15px;
     margin-bottom: 8px;
-    color: #ffcc00;
+    color: #dd081a;
     font-size: 16px;
 }
 
@@ -155,10 +155,10 @@ BODY {
 }
 
 .warning-box {
-    border-left-color: #ffcc00;
+    border-left-color: #eb0a11;
 }
 .warning-box h2 {
-    color: #ffcc00;
+    color: #f10a0a;
 }
 .warning-box p {
     margin-bottom: 10px;
@@ -200,7 +200,7 @@ BODY {
 }
 
 .test-btn {
-    background-color: #ffcc00;
+    background-color: #e40f0f;
     color: #000;
     border: none;
     padding: 8px 16px;
@@ -225,7 +225,7 @@ BODY {
 }
 
 .pricing-section h2 {
-    color: #ffcc00;
+    color: #ff0008;
     font-size: 18px;
     margin-bottom: 20px;
 }
@@ -242,7 +242,7 @@ BODY {
     background: #1a1a1a;
     padding: 15px 25px;
     border-radius: 6px;
-    border: 1px solid #333;
+    border: 1px solid #eb3131;
 }
 
 .highlight-plan {
