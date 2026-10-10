@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 4px solid #ff0055;
+    border-bottom: 4px solid #4115c4;
     flex-wrap: wrap;
     gap: 15px;
 }
@@ -32,7 +32,7 @@ body {
 }
 
 .logo-text .highlight {
-    color: #260bf3;
+    color: #f8f7f9;
 }
 
 /* Redes Sociais com Cursor de Mãozinha e Efeito de Cor */
