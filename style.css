@@ -175,12 +175,11 @@ BODY {
 }
 
 .device-card {
-    background: #1c1c1c;
+    background: #f9f7f7;
     padding: 20px;
     border-radius: 8px;
     text-align: center;
-    text-decoration: rgb(246, 245, 245);
-    border: 1px solid #fcfafa;
+    border: 1px solid #b20404;
     transition: 0.3s;
 }
 
