@@ -29,16 +29,15 @@
 }
 
 /* Estilo do texto ao lado da imagem */
-.logo-text {
+
+
+.highlight {
+    color: #0066ff; /* Cor de destaque */
     font-size: 24px; /* Tamanho ideal para o nome */
     color: #ffffff;
     font-weight: bold;
     margin: 0;
     white-space: nowrap; /* Impede que o texto quebre a linha */
-}
-
-.highlight {
-    color: #0066ff; /* Cor de destaque */
 }
 
 /* Navegação das redes sociais (Fica bem à direita com espaço livre) */
